@@ -51,13 +51,13 @@ The purpose of this step was to explore the structure and features of the datase
 
 ![2](https://user-images.githubusercontent.com/56270322/81347155-93094900-9089-11ea-9a11-b02d76bcbc78.jpg)
 
-Figure 2 Response variable&#39;s initial distribution_
+Figure 2 Response variable&#39;s initial distribution
 
 As part of this process was to identify potential outliers in the response variable that had to be corrected in the dataset to train the models better and reduce overfitting issues.
 
-![](RackMultipart20200507-4-1xo3llz_html_fba4aa9f01ddce6f.jpg)
+![3](https://user-images.githubusercontent.com/56270322/81347245-c055f700-9089-11ea-8520-6f10dc42e4bd.jpg)
 
-_Figure 3 Outliers in the response variable per sector_
+Figure 3 Outliers in the response variable per sector
 
 _Table 1 response variable (price percentage variation) quartile distribution by sector_
 

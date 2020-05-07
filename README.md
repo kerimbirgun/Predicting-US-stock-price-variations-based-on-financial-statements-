@@ -59,9 +59,8 @@ As part of this process was to identify potential outliers in the response varia
 
 Figure 3 Outliers in the response variable per sector
 
-_Table 1 response variable (price percentage variation) quartile distribution by sector_
-
-![](RackMultipart20200507-4-1xo3llz_html_36ed09875738fa90.png)
+Table 1 response variable (price percentage variation) quartile distribution by sector
+![4](https://user-images.githubusercontent.com/56270322/81347326-e7142d80-9089-11ea-803d-6389a7f984ef.png)
 
 Likewise, exploring other predictors was possible to identify imbalances across the dataset that could then affect during the data splitting step and the accuracy of the models&#39; predictions.
 

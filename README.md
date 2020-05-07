@@ -44,10 +44,7 @@ _Figure 1 Stock Exchange sectors within the dataset_
 
 The stock price percentage variation was defined as the response -or dependent- variable across the predicting models built in this study. Whereas the last column, &quot;Class,&quot; is a Boolean variable containing 1 and 0 depending on whether the stock was a buy-worthy or not-buy-worthy option. The stock classification was based on the price percentage variation. An unfavorable change meant a not-buy-worthy share; meanwhile, a positive percentual change meant a buy-worthy option.
 
-### Analytical Process
-
 This project sought to follow the next process during the models-building and the estimation of the predictions:
-
 
 ## Data Exploration
 

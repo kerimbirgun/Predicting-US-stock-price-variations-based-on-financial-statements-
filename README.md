@@ -38,8 +38,7 @@ In addition to these 222 financial indicators, the third-to-last column, &quot;S
 
 The second-to-last column contains the percentage variation of each stock price. The percentage variation was estimated based on the year&#39;s first and last trading day, providing the twelve months rolling difference.
 
-![](RackMultipart20200507-4-1xo3llz_html_ca8739edc63dcd8.jpg)
-
+![1](https://user-images.githubusercontent.com/56270322/81346994-4de51700-9089-11ea-8048-52aed87997ea.jpg)
 _Figure 1 Stock Exchange sectors within the dataset_
 
 The stock price percentage variation was defined as the response -or dependent- variable across the predicting models built in this study. Whereas the last column, &quot;Class,&quot; is a Boolean variable containing 1 and 0 depending on whether the stock was a buy-worthy or not-buy-worthy option. The stock classification was based on the price percentage variation. An unfavorable change meant a not-buy-worthy share; meanwhile, a positive percentual change meant a buy-worthy option.

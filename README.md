@@ -50,7 +50,8 @@ This project sought to follow the next process during the models-building and th
 The purpose of this step was to explore the structure and features of the dataset, the distribution of the predictors and response variable, and the number of missing values across the entire dataset.
 
 ![2](https://user-images.githubusercontent.com/56270322/81347155-93094900-9089-11ea-9a11-b02d76bcbc78.jpg)
-_Figure 2 Response variable&#39;s initial distribution_
+
+Figure 2 Response variable&#39;s initial distribution_
 
 As part of this process was to identify potential outliers in the response variable that had to be corrected in the dataset to train the models better and reduce overfitting issues.
 

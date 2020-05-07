@@ -1,9 +1,6 @@
 # Predicting-US-stock-price-variations-based-on-financial-statements-
 
 
-Predicting stock price variations based on financial statements information disclosed by the U.S publicly traded companies
-
-
 
 ### Abstract
 
@@ -51,7 +48,7 @@ The stock price percentage variation was defined as the response -or dependent- 
 
 This project sought to follow the next process during the models-building and the estimation of the predictions:
 
--
+
 ## Data Exploration
 
 The purpose of this step was to explore the structure and features of the dataset, the distribution of the predictors and response variable, and the number of missing values across the entire dataset.
@@ -78,7 +75,7 @@ _Figure 4 Stock Class initial imbalance across the dataset_
 
 Missing values are a constant issue when dealing with vast amounts of data, and this dataset was not the exception. During the exploration phase, it was possible to identify that almost 10% of the data was missing.
 
--
+
 ## Data Cleaning
 
 During this phase, missing values were imputed using the missranger package, which estimates the new values based on the variable&#39;s distribution and the surrounding data. Something important to highlight here is the quality of the dataset, given that such amount of missing values was not typical as 10-K forms cannot have missing data.
@@ -115,7 +112,7 @@ Another work from the Australian stock market, Brimble and Hodgson (2007), prove
 Finally, we found a research that finds some linkages between stock prices and profitability ratios (the ROA, the ROE, the ROCE, among others).
 # 1
 
--
+
 ## Feature Engineering
 
 During the data exploration phase was possible to identify that several indicators had different scales and many of them had skewed distributions. Therefore, this phase aimed to correct these two issues by scaling and normalizing the data.

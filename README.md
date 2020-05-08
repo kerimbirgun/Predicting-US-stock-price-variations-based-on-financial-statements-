@@ -128,18 +128,13 @@ To run the predicting models, the data was split into train and test samples usi
 
 Once the models were run and the stock price variations were estimated using the train sample, then the models were validated through the test sample, and three noteworthy findings came up:
 
-- First, linear model with unnormalized Y variable showed the weakest performance,
+• First, linear model with unnormalized Y variable showed the weakest performance,
 
 • Second, Ensemble models, RF and GB performed quite similar results,
 
 • And third, despite a weaker R Squared, Neural Network yielded the better Test RMSE.
 
 ![9](https://user-images.githubusercontent.com/56270322/81363303-fbb7ec00-90b0-11ea-825e-77e9a12fdc6c.png)
-
-In terms of Train vs Test performance comparisons, we observed 2 major outcomes:
-
-- First, unlike any other models, Train error of Gradient Boosting is lower than that of its Test error indicating that Gradient Boosting model tends to overfit.
-- Secondly, we also took a stab at combining RF + GB and Lasso yet it didn&#39;t outperform others.
 
 ### Clustering then predict
 

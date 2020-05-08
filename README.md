@@ -64,9 +64,9 @@ Table 1 response variable (price percentage variation) quartile distribution by 
 
 Likewise, exploring other predictors was possible to identify imbalances across the dataset that could then affect during the data splitting step and the accuracy of the models&#39; predictions.
 
-![](RackMultipart20200507-4-1xo3llz_html_a272c4d2db6d6292.jpg)
+![4](https://user-images.githubusercontent.com/56270322/81363078-72a0b500-90b0-11ea-8a34-a32c6db7ad18.jpg)
 
-_Figure 4 Stock Class initial imbalance across the dataset_
+Figure 4 Stock Class initial imbalance across the dataset
 
 Missing values are a constant issue when dealing with vast amounts of data, and this dataset was not the exception. During the exploration phase, it was possible to identify that almost 10% of the data was missing.
 

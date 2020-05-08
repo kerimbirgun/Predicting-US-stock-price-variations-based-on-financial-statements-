@@ -140,13 +140,10 @@ Once the models were run and the stock price variations were estimated using the
 
 Apart from the previous models, this study also tried to employ clustering algorithms, specifically K-means, to improve the accuracy of the stock price variation predictions. Therefore, the first step of this phase was to determine the optimal number of centroids or clusters in which group the stocks.
 
-![](RackMultipart20200507-4-1xo3llz_html_4280e1578c70d812.jpg)
-
-_Figure 7 Total Within Sum of Square plot_
+![10](https://user-images.githubusercontent.com/56270322/81363616-cb248200-90b1-11ea-8ae9-ac3e29e77b9e.jpg)
+Figure 7 Total Within Sum of Square plot
 
 Based on the Total Within Sum of Square plot was possible to identify that 2 clusters were the optimal number of centers for grouping the data and then estimate the stock price variations. However, the results of this entire process didn&#39;t outperform previous predictions.
-
-![](RackMultipart20200507-4-1xo3llz_html_954355a1b09bda44.png)
 
 ### Conclusions
 

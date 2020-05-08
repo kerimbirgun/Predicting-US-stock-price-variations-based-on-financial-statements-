@@ -75,15 +75,13 @@ Missing values are a constant issue when dealing with vast amounts of data, and 
 
 During this phase, missing values were imputed using the missranger package, which estimates the new values based on the variable&#39;s distribution and the surrounding data. Something important to highlight here is the quality of the dataset, given that such amount of missing values was not typical as 10-K forms cannot have missing data.
 
-![](RackMultipart20200507-4-1xo3llz_html_44b65f441cbea236.jpg)
-
-_Figure 5 Missing values distribution_
+![5](https://user-images.githubusercontent.com/56270322/81363278-ef339380-90b0-11ea-8961-0e8c4517b292.jpg)
+Figure 5 Missing values distribution
 
 Correcting outliers was also part of this phase. This study defined a strategy that seeks to eliminate all these extreme values within the response variable. In this sense, all companies, or rows, with percentage variations greater than 150%, were dropped from the dataset. The rationale for this decision was that companies do not tend to have disruptive events that derive such stock price changes.
 
-![](RackMultipart20200507-4-1xo3llz_html_871796f75240dbf.jpg)
-
-_Figure 6 Response variable&#39;s distribution after correcting outliers_
+![6](https://user-images.githubusercontent.com/56270322/81363285-f2c71a80-90b0-11ea-9590-448557e84a78.jpg)
+Figure 6 Response variable&#39;s distribution after correcting outliers
 
 -
 ## Feature selection
@@ -93,8 +91,7 @@ Part of this work aims to understand what variables (stated or estimated) from 1
 - Data-driven methods (RF – variable importance):
 - Lasso regression – features based on coefficients
 - Random Forest – features importance
-
-![](RackMultipart20200507-4-1xo3llz_html_cf2fafce7d5a34b9.jpg)
+![7](https://user-images.githubusercontent.com/56270322/81363294-f65aa180-90b0-11ea-8375-9491132b27cc.jpg)
 
 - Literature review (previous studies variable selection (financial ratios))
 
@@ -105,18 +102,15 @@ In the paper called &quot;Relation between share price and financial indicators 
 Another work from the Australian stock market, Brimble and Hodgson (2007), proved the relationship between book value and profit, and book value and dividends.
 
 Finally, we found a research that finds some linkages between stock prices and profitability ratios (the ROA, the ROE, the ROCE, among others).
-# 1
-
 
 ## Feature Engineering
 
 During the data exploration phase was possible to identify that several indicators had different scales and many of them had skewed distributions. Therefore, this phase aimed to correct these two issues by scaling and normalizing the data.
 
-![](RackMultipart20200507-4-1xo3llz_html_1912148c21742315.png)
+![8](https://user-images.githubusercontent.com/56270322/81363296-f8bcfb80-90b0-11ea-9714-fe362bc0963a.png)
 
 An initial linear regression model was used to analyze the dependent variable&#39;s residuals. The residuals&#39; plot showed a high variance as a result of a skewed distribution. Hence, using the bestnormalization R&#39;s package was possible to correct the distribution, reduce residuals variance, and thereby improve the R squared of the predicting models.
 
--
 ## Analytical Techniques
 
 Several regressions were ran using a wide range of models seeking to find the best approach to reduce the RMSE and find a higher R2. As part of the process, stocks were clustered to predict their performance, but results didn&#39;t outperform previous approaches. The models that were the following:
@@ -128,7 +122,6 @@ Several regressions were ran using a wide range of models seeking to find the be
 - Average of Random Forest + GBM + Linear Regression
 - Neural Network
 
--
 ## Results
 
 To run the predicting models, the data was split into train and test samples using CreateDataPartition function of Caret package. The Class variable was used to divide the dataset and fix the imbalance issue.
@@ -141,7 +134,7 @@ Once the models were run and the stock price variations were estimated using the
 
 • And third, despite a weaker R Squared, Neural Network yielded the better Test RMSE.
 
-![](RackMultipart20200507-4-1xo3llz_html_3ded833faa65a9a.png)
+![9](https://user-images.githubusercontent.com/56270322/81363303-fbb7ec00-90b0-11ea-825e-77e9a12fdc6c.png)
 
 In terms of Train vs Test performance comparisons, we observed 2 major outcomes:
 
